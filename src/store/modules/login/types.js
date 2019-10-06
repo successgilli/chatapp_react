@@ -1,0 +1,7 @@
+const USER_LOGIN = 'USER_LOGIN';
+const USER_SIGNUP = 'USER_SIGNUP';
+
+export {
+  USER_LOGIN,
+  USER_SIGNUP,
+};

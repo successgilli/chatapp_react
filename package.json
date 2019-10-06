@@ -1,0 +1,57 @@
+{
+  "name": "chatapp_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --hot --config ./config/webpack.dev.js",
+    "start": "webpack --hot --config ./config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/successgilli/chatapp_react.git"
+  },
+  "keywords": [
+    "chatapp",
+    "react"
+  ],
+  "author": "A.N GILBERT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/successgilli/chatapp_react/issues"
+  },
+  "homepage": "https://github.com/successgilli/chatapp_react#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "node-sass": "^4.12.0",
+    "redux-devtools-extension": "^2.13.8",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
