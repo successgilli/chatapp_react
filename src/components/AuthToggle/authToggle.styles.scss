@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.auth-toggle {
+    width: 55%;
+    height: 35px;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+        &_btn{
+            background-color: transparent;
+            outline: 0;
+            position: relative;
+            border: 0;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+        }
+        &_btn_active{
+            background-color: transparent;
+            outline: 0;
+            position: relative;
+            border: 0;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        &_slider{
+            position: absolute;
+            border-radius: 30px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            left: 0;
+            height: 100%;
+            background-image: linear-gradient(to right,  #5244F0 , rgb(138, 138, 238));
+            transition: 0.5s ease;
+        }
+        @media (max-width: 469px) {
+            width: 70%;
+        }
+}

@@ -1,0 +1,31 @@
+
+.home{
+    padding: 20px;
+    padding-top: 90px;
+    min-height: 82vh;
+    display: flex;
+    justify-content: space-between;
+    &_video{
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 769px) {
+            display: none;
+        }
+    }
+    &_auth{
+
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 769px) {
+            margin: auto;
+        }
+    }
+    @media (max-width: 469px) {
+        padding: 0;
+        padding-top: 90px;
+    }
+}
